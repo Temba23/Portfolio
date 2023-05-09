@@ -1,6 +1,6 @@
 /*# sourceMappingURL=style.css.map */
 header{
-    background: #000;
+    background:#BFCCB5;
     height:100vh;
     position: fixed;
     width: 300px;
@@ -40,10 +40,10 @@ header{
 #b
 {
     
-    background: #999;
+    background: #7C96AB;
     font-style: normal;
     color: #000;
-    font-size: 14px;
+    font-size: 24px;
     margin-left: 300px;
 }
 .font
