@@ -1,60 +1,18 @@
-/*# sourceMappingURL=style.css.map */
-header{
-    background:#BFCCB5;
-    height:100vh;
-    position: fixed;
-    width: 300px;
+.container {
+    width: 1600px;
+    background-color: #EBEEEC;
+    height: auto;
 }
-#main
-{
-   margin-left: 300px; 
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-#a{
-    background: url(https://filmdaily.co/wp-content/uploads/2020/11/johnnydepp-lede.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.logo
-{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-}
-.fa-brands
-{
-    font-size: 23px;
-}
-.fa-brands:hover
-{
-    color:#fff;
-}
-.fa-solid
-{
-    font-size: 23px;
-}
-.fa-solid:hover
-{
-    color:#fff;
-}
-#b
-{
-    
-    background: #7C96AB;
-    font-style: normal;
-    color: #000;
-    font-size: 24px;
-    margin-left: 300px;
-}
-.font
-{
-    font-size: 28px;
-    font-weight: 600;
-    
-}
-.list-group-item:hover{
-    color:#fff;
-}
-.me{
-    font-size: 24px;
+
+.image {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #ccc;
 }
