@@ -1,13 +1,27 @@
+body {
+    font-size: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight:lighter;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    
+}
+
+.banner {
+    background-color: #e6f2ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:10px;
+}
 .container {
     width: 1600px;
     background-color: #EBEEEC;
     height: auto;
 }
-.banner {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .image {
     width: 200px;
