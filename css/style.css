@@ -4,7 +4,6 @@ body {
     font-family: 'Arial', sans-serif;
     font-weight:lighter;
     background-color: #f4f4f4;
-    
 }
 
 .banner {
@@ -21,12 +20,29 @@ body {
     margin-top: 10px;
     padding: 10px;
 }
-
-
 .image {
     width: 200px;
     height: 200px; 
     border-radius: 50%; 
     object-fit: cover; 
     border: 2px solid #ccc;
+}
+.experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adjust the gap as needed */
+    border-bottom:  2px solid #000;
+}
+
+.experience div {
+    flex: 1; /* This will make each div take equal space within the container */
+    padding: 10px; /* Optional: Add some padding for better spacing within each div */
+}
+.text1 {
+    text-align:center;
+}
+.paddin {
+    padding-top: 40px;
 }
