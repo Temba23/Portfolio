@@ -14,7 +14,7 @@ body {
     height: 400px;    
 }
 .container {
-    width: 1600px;
+    width: auto;
     background-color: #EBEEEC;
     height: auto;
     margin-top: 10px;
@@ -32,13 +32,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 20px; /* Adjust the gap as needed */
+    gap: 20px;
     border-bottom:  2px solid #000;
 }
 
 .experience div {
-    flex: 1; /* This will make each div take equal space within the container */
-    padding: 10px; /* Optional: Add some padding for better spacing within each div */
+    flex: 1;
+    padding: 10px; 
 }
 .text1 {
     text-align:center;
