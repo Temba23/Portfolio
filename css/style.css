@@ -47,8 +47,9 @@ body {
 }
 
 .text1 {
-    text-align: center;
+    text-align:left;
     font-weight: 600;
+    color:rgb(69, 18, 69);
 }
 
 .paddin {
